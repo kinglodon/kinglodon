@@ -423,7 +423,7 @@ button, input:hover {
 <script src="//unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
-<div class="footer kedip">
+<div class="footer text-light">
   <p>Yowaii Mo 🤡</p>
 </div>
 <div class="table-responsive text-light separator" style="text-align: left;padding: 12px 12px 4px;border: 2px solid #4200ac;border-radius:5px;">
