@@ -379,25 +379,25 @@ button, input:hover {
 
 @keyframes kedip {
     0% {
-        color: #4200ac;
+        color: yellow;
     }
     50% {
         color: #00ff00;
     }
     100% {
-        color: #4200ac;
+        color: yellow;
     }
 }
 
 @keyframes kedip-border {
     0% {
-        border-color: #4200ac;
+        border-color: #00ff00;
     }
     50% {
         border-color: yellow;
     }
     100% {
-        border-color: #4200ac;
+        border-color: #00ff00;
     }
 }
     
