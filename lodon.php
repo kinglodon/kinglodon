@@ -191,7 +191,8 @@ body {
     margin-left: auto;
     margin-top: 7px;
     margin-bottom: 7px;
-    background-color: black!important;
+    background: url("https://raw.githubusercontent.com/kinglodon/kinglodon/main/lodon-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 .bg-dark {
