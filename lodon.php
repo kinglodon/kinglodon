@@ -181,6 +181,13 @@ function tF($yf)
 @import url('//fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 
+html {
+width: 100%;
+height: 100%;
+background: url("https://raw.githubusercontent.com/kinglodon/kinglodon/main/lodon-bg.jpg") no-repeat center center fixed;
+background-size: cover;
+}
+    
 body {
     color: black;
     font-size: 0px;
@@ -191,8 +198,6 @@ body {
     margin-left: auto;
     margin-top: 7px;
     margin-bottom: 7px;
-    background: url("https://raw.githubusercontent.com/kinglodon/kinglodon/main/lodon-bg.jpg") no-repeat center center fixed;
-    background-size: cover;
 }
 
 .bg-dark {
