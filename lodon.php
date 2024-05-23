@@ -229,7 +229,7 @@ body {
     padding: 0.25rem;
     border-radius: 5px;
     box-shadow: inset 0px 0px 0px 1.5px red;
-    background: linear-gradient(to bottom, black, #3f3f3f80);
+    background-color: black;
 }
 
 .table-hover tbody tr:hover td {
