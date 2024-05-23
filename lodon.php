@@ -192,8 +192,8 @@ body {
     color: black;
     font-size: 0px;
     font-family: 'Merienda';
-    width: 100%;
-    height: 100%;
+    width: 99%;
+    height: 99%;
     padding: 0px;
     margin-right: auto;
     margin-left: auto;
